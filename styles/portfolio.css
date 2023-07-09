@@ -15,6 +15,20 @@ font-family: 'Poppins', sans-serif;
     font-weight: 700;
     padding: 15px 35px
 }
+.section-title {
+    color: #181818;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+
+}
+.section-description {
+    color: var(--dark-03, #757575);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
 /* nav related styles */
 nav {
     display: flex;
@@ -64,6 +78,9 @@ nav a{
     font-size: 45px;
     color: #474747;
     margin-bottom: 0;
+}
+.banner-description {
+
 }
 .banner-content{
     max-width: 500px;
@@ -143,6 +160,10 @@ main section{
     margin-bottom: 10px;
 }
 
+.resume-item-institute{
+    margin-bottom: 20px;
+    margin-top: 0px ;
+}
 .resume-item-institute, 
 .resume-item-description {
     color: #757575;
@@ -167,7 +188,7 @@ footer {
 }
 
 .footer-column {
-    width: 20%;
+    width: 50%;
 }
 
 .social-links a{
